@@ -1,3 +1,6 @@
+gui/fractalwalk-gui
+gui/ui
+
 # C++ objects and libs
 
 *.slo
@@ -18,3 +21,4 @@ moc_*.cpp
 qrc_*.cpp
 Makefile
 *-build-*
+
