@@ -16,6 +16,7 @@ public:
     void set_data(const double* data, int sz);
     void set_lambda(double lambda);
     void set_message(QString message);
+    void set_draw_parent(bool draw);
 
     double lambda() const { return lambda_; }
 
@@ -29,6 +30,8 @@ private:
     std::vector<double> data_;
     double              lambda_;
     QString             message_;
+    QColor              graph_color_;
+    bool                draw_parent_;
 };
 
 #endif

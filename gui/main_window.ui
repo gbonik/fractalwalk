@@ -95,6 +95,49 @@
        </widget>
       </item>
       <item>
+       <widget class="QCheckBox" name="check_show_parent">
+        <property name="text">
+         <string>Show parent</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_5">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>10</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_jump_to">
+        <property name="text">
+         <string>Jump to...</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>10</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
        <widget class="QLabel" name="label">
         <property name="text">
          <string>p =</string>
@@ -113,7 +156,7 @@
          <double>0.999000000000000</double>
         </property>
         <property name="singleStep">
-         <double>0.050000000000000</double>
+         <double>0.010000000000000</double>
         </property>
         <property name="value">
          <double>0.300000000000000</double>

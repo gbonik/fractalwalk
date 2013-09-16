@@ -20,6 +20,8 @@ private slots:
     void spin_p_changed(double value);
     void btn_prev_clicked();
     void btn_next_clicked();
+    void btn_jump_to_clicked();
+    void check_show_parent_changed(int state);
 
 private:
     Ui::MainWindow      ui_;
